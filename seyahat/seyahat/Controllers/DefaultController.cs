@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using seyahat.Data;
+using seyahat.Models.Siniflar;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +10,16 @@ namespace seyahat.Controllers
 {
     public class DefaultController : Controller
     {
+        private readonly ApplicationDbContext _db;
+        public DefaultController(ApplicationDbContext db)
+        {
+            _db = db;
+        }
         public IActionResult Index()
         {
-            return View();
+
+            var deger = _db.Blog.ToList();
+            return View(deger);
         }
         public ActionResult About()
         {

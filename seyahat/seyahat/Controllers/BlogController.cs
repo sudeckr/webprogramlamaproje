@@ -15,12 +15,14 @@ namespace seyahat.Controllers
         {
             _db = db;
         }
+        BlogYorum by = new BlogYorum();
         public IActionResult Index()
         {
-            var bloglar = _db.Blog.ToList();
-            return View(bloglar);
+            // var bloglar = _db.Blog.ToList();
+            by.Deger = _db.Blog.ToList();
+            by.Deger3 = _db.Blog.OrderByDescending(x => x.Id).Take(3).ToList();
+            return View(by);
         }
-        BlogYorum by = new BlogYorum();
         public IActionResult BlogDetay(int id)
         {
 
