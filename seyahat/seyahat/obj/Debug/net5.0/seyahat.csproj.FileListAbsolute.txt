@@ -160,3 +160,6 @@ C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\bin\Debug\net5.0\bundleconfig.json
 C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Default\Index.cshtml.g.cs
 C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Shared\_TestLayout.cshtml.g.cs
 C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Default\About.cshtml.g.cs
+C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Blog\BlogDetay.cshtml.g.cs

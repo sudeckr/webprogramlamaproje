@@ -1,0 +1,28 @@
+﻿@using seyahat.Models.Siniflar
+@model List<Hakkimizda>
+@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+
+    <div class="content">
+        <div class="wrap">
+            <div class="about">
+                <h3>Hakkımda</h3>
+                @foreach (var x in Model)
+                {
+                    <img src="@x.FotoUrl" alt="" /> 
+
+                    <p>@x.Aciklama</p>
+                }
+            </div>
+    </div>
+
+</body>
+</html>
