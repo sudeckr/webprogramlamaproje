@@ -8,4 +8,5 @@ namespace seyahat.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
+//dene
 }
