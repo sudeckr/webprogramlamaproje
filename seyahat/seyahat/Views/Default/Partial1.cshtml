@@ -1,0 +1,26 @@
+﻿@using seyahat.Models.Siniflar
+@model List<Blog>
+@{ Layout = null; }
+
+
+<div class="padding1">
+    <h4>Our Best Places</h4>
+    <div class="box-left">
+        @foreach (var y in Model)
+        {
+            <div class="bot-img">
+                <img src="@y.BlogImage" alt="" />
+            </div>
+            <div class="bot-desc">
+                <p>@y.Aciklama.Substring(0, 20) </p>
+            </div>
+            <div class="clear"></div>
+
+        }
+    </div>
+    @Html.Partial("Partial2")
+
+
+
+
+</div>

@@ -18,12 +18,14 @@ namespace seyahat.Controllers
         public IActionResult Index()
         {
 
-            var deger = _db.Blog.ToList();
+            var deger = _db.Blog.OrderByDescending(x=>x.Id).Take(6).ToList();
             return View(deger);
         }
         public ActionResult About()
         {
             return View();
         }
+   
+
     }
 }
