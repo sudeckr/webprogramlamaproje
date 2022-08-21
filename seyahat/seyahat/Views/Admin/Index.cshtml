@@ -1,0 +1,30 @@
+﻿@using seyahat.Models.Siniflar
+@model List<Blog>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Bloglar</h3>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>BAŞLIK</th>
+        <th>SİL</th>
+        <th>GÜNCELLE</th>
+        <th>DETAY</th>
+    </tr>
+    @foreach (var y in Model) {
+    <tr>
+        <td>@y.Id</td>
+        <td>@y.Baslik</td>
+        <td><a href="/Admin/BlogSil/@y.Id" class="btn btn-outline-danger">Sil</a></td>
+        <td><a href="#" class="btn btn-outline-warning">Güncelle</a></td>
+        <td><a href="#" class="btn btn-outline-dark">Detay</a></td>
+    </tr>
+    }
+</table>
+<a href="/Admin/BlogEkle" class=" btn btn-info">Yeni Blog Ekle</a>
+
+

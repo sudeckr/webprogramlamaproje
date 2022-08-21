@@ -165,3 +165,6 @@ C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Blog\I
 C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Blog\BlogDetay.cshtml.g.cs
 C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Default\Partial1.cshtml.g.cs
 C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Default\Partial2.cshtml.g.cs
+C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Admin\BlogEkle.cshtml.g.cs
