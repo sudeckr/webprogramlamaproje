@@ -31,6 +31,22 @@ namespace seyahat.Controllers
             by.Deger2 = _db.Yorumlar.Where(x => x.BlogId == id).ToList();
             return View(by);
         }
+        [HttpGet]
+        public IActionResult Yorum(int id)
+        {
+
+            ViewBag.deger = id;
+            return PartialView();
+
+        }
+
+        [HttpPost]
+        public IActionResult Yorum(Yorumlar y)
+        {
+            _db.Yorumlar.Add(y);
+            _db.SaveChanges();
+            return PartialView();
+        }
 
     }
 }

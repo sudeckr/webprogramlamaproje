@@ -40,5 +40,21 @@ namespace seyahat.Controllers
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
+        public IActionResult Guncelle(int id)
+        {
+            var deger = _db.Blog.Find(id);
+            return View("Guncelle",deger);
+        }
+        public IActionResult BlogGuncelle(Blog blog)
+        {
+            var b = _db.Blog.Find(blog.Id);
+            b.Aciklama = blog.Aciklama;
+            b.Baslik = blog.Baslik;
+            b.BlogImage = blog.BlogImage;
+            b.Tarih = blog.Tarih;
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+
+        }
     }
 }
