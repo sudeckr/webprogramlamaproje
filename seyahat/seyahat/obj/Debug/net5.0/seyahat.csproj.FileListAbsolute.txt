@@ -168,3 +168,5 @@ C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Admin\
 C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Admin\BlogEkle.cshtml.g.cs
 C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Admin\Guncelle.cshtml.g.cs
 C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Blog\Yorum.cshtml.g.cs
+C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Login\Giris.cshtml.g.cs
+C:\Users\SUDE ÇAKIR\Desktop\seyahat\seyahat\obj\Debug\net5.0\Razor\Views\Iletisim\Index.cshtml.g.cs

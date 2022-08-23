@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using seyahat.Data;
 using seyahat.Models.Siniflar;
 using System;
@@ -15,6 +16,7 @@ namespace seyahat.Controllers
         {
             _db = db;
         }
+        
         public IActionResult Index()
         {
             var deger = _db.Blog.ToList();

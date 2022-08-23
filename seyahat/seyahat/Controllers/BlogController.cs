@@ -36,7 +36,7 @@ namespace seyahat.Controllers
         {
 
             ViewBag.deger = id;
-            return PartialView();
+            return View();
 
         }
 
@@ -45,7 +45,7 @@ namespace seyahat.Controllers
         {
             _db.Yorumlar.Add(y);
             _db.SaveChanges();
-            return PartialView();
+            return RedirectToAction("Index");
         }
 
     }
